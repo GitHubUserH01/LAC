@@ -1,7 +1,5 @@
 # LAC
 
-### Running
-
 ## To test the lane change assistance:
 cd ./ 
 
@@ -19,10 +17,5 @@ python3 main.py
 
 ### Modules
 
-- dynamics.py: This contains code for car dynamics.
-- car.py: Relevant code for different car models (human-driven, autonomous, etc.)
-- feature.py: Definition of features.
-- lane.py: Definition of driving lanes.
-- trajectory.py: Definition of trajectories.
-- world.py: This code contains different scenarios (each consisting of lanes/cars/etc.).
-- visualize.py: This contains the code for visualization (GUI).
+- Motion_prediction: This contains the model trained by W-IL
+- Car_following: This contains the model trained by MA-Seq2Seq
