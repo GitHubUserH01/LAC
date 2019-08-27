@@ -3,17 +3,13 @@
 ### Running
 
 To test the lane change assistance:
-./vis {file_name}.pickle
+./ python3 main.py
 
-To run an experiment
-./run {world_name}
-where world_name can be any one of the worlds defined in world.py
+To test W-IL
+./W_IL python3 main.py
 
-To run an experiment with irl_ground world:
-./run irl_ground
-
-To run the IRL algorithm:
-./irl.py data/*.pickle
+To test MA-Seq2Seq:
+./MA_Seq2Seq python3 main.py
 
 ### Modules
 
