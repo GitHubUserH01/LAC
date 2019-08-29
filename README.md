@@ -18,6 +18,6 @@ python3 main.py
 ## To test MA-Seq2Seq:
 cd ./MA_Seq2Seq 
 
-python3 main.py
+python3 TDpredict_GM.py
 
 
