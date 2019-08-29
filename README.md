@@ -1,5 +1,10 @@
 # LAC
 
+### Modules
+
+- Motion_prediction: This contains the model trained by W-IL
+- Car_following: This contains the model trained by MA-Seq2Seq (Please first unzip the file all_model.ckpt.meta.zip)
+
 ## To test the lane change assistance:
 cd ./ 
 
@@ -15,7 +20,4 @@ cd ./MA_Seq2Seq
 
 python3 main.py
 
-### Modules
 
-- Motion_prediction: This contains the model trained by W-IL
-- Car_following: This contains the model trained by MA-Seq2Seq (Please first unzip the file all_model.ckpt.meta.zip)
